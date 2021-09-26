@@ -1,0 +1,52 @@
+button {background-color: antiquewhite;
+color: chocolate;}
+p{color: rgb(116, 83, 146);}
+h3{ color: coral;}
+h1 {color: coral;}
+#parrafo3 {
+    color: rgb(128, 55, 29);
+}
+.parrafomedio{
+    color: rgb(13, 80, 88);
+}
+.parrafogris {
+    color: rgb(231, 44, 44);
+}
+.fondoverde {
+    background-color: lightgreen;
+}
+.tipografia {
+
+    font-size: medium;
+    font-weight: bolder;
+}
+.imagenpequeña{
+    height: 500px;
+}
+.contenedorconmargen{
+    margin: 10px 10px 10px 10px;
+    border: solid salmon 2px;
+    padding: 10px;
+
+}
+.contenedordivs{
+    border: solid rgb(114, 123, 250) 2px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 20px 60px 80px;
+    margin: 20px;
+}
+.divtest{
+    border: 2px solid rgb(48, 38, 12);
+    height: 30px;
+    
+    
+}
+.contenedordivflex{
+    border: 2px solid rgb(216, 167, 42);
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+
+}
