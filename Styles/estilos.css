@@ -34,7 +34,11 @@ body {
 }
 .mainbutton:hover{
     background-color: rgb(192, 168, 183);
+<<<<<<< HEAD
     color: rgb(192, 168, 183);
+=======
+    color: background-color: rgb(192, 168, 183);
+>>>>>>> 8-crear-cuadro-busqueda
     box-shadow: 2px 2px rgba(134, 102, 108, 0.24);
 
 }
@@ -46,4 +50,23 @@ body {
     background-color: rgb(206, 188, 202);
     color: rgb(224, 184, 207);
     box-shadow: 2px 2px rgba(170, 143, 148, 0.24);
+<<<<<<< HEAD
+=======
+}
+
+.buscar{
+    background-color: rgb(241, 197, 219)
+    border: 1px slategray;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.buscar:focus-within{
+    border: 1px rgb(196, 161, 181);
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+>>>>>>> 8-crear-cuadro-busqueda
 }
