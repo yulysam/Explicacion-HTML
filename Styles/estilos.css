@@ -12,7 +12,16 @@ body {
     justify-content: space-between;
     margin: 0px;
     padding: 15px;
+    background-color: rgb(245, 225, 235);
+    border-bottom: 2px rgb(39, 28, 30);
+    box-shadow: 3px 3px grey;
 }
+.navbar > li{
+
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     height: 70px;
 }
@@ -34,11 +43,7 @@ body {
 }
 .mainbutton:hover{
     background-color: rgb(192, 168, 183);
-<<<<<<< HEAD
-    color: rgb(192, 168, 183);
-=======
-    color: background-color: rgb(192, 168, 183);
->>>>>>> 8-crear-cuadro-busqueda
+    background-color: rgb(192, 168, 183);
     box-shadow: 2px 2px rgba(134, 102, 108, 0.24);
 
 }
@@ -50,15 +55,14 @@ body {
     background-color: rgb(206, 188, 202);
     color: rgb(224, 184, 207);
     box-shadow: 2px 2px rgba(170, 143, 148, 0.24);
-<<<<<<< HEAD
-=======
 }
 
 .buscar{
-    background-color: rgb(241, 197, 219)
+    background-color: rgb(241, 197, 219);
     border: 1px slategray;
-    border-radius: 8px;
-    padding: 2px;
+    border-radius: 12px;
+    padding: 4px;
+    
 }
 
 .buscar:focus-within{
@@ -68,5 +72,4 @@ body {
 .buscar > input {
     outline: none;
     border: 0px;
->>>>>>> 8-crear-cuadro-busqueda
 }
